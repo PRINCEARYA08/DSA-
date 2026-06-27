@@ -1,19 +1,12 @@
-#include<iostream>
-#include<vector>
+// #include <iostream>
+// #include<vector>
+#include<bits\stdc++.h>
 using namespace std;
-int main(){
-    int size;
-    cin>>size;
-    vector<int>vec(size);
-    //vec.push_back;
-    // int size;
-    // cin>>size;
-     for(int i : vec){
-        cin>>i;
-    }
-    for(int i : vec){
-        cout<<i+1<<endl;
-    }
-
+int main()
+{
+    vector<int>v={1,2};
+v.push_back(-10);
+cout<<v.size()<<endl;
+cout<<v.capacity();
     return 0;
 }

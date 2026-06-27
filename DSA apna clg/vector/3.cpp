@@ -1,23 +1,16 @@
 #include <iostream>
-#include <vector>
 using namespace std;
+// void explainPair(){
+//     pair<int ,int >p={1,3};
+// }
 int main()
 {
-    vector<int> vec = {1, 2, 3, 4,5};
-    cout<<"size = "<<vec.size()<<endl;
-    vec.push_back(6);
-    for (int i : vec)
-    {
-        cout << i;
-    }
-    cout<<endl;
-
-
-    // vector<char> chart = {'a', 'b', 'c', 'd', 'e'};
-    // for (char i : chart)
-    // {
-    //     cout << i;
-    // }
+    pair<int, int> r = {1, 2};
+    cout << r.first << " " << r.second << endl;
+    pair<int, pair<int, int>> p = {1, {2, 3}};
+    cout << p.first << " " << p.second.second << " " << p.second.first << endl;
+    pair<int, int> arr[] = {{1, 2}, {2, 3}, {3, 4}};
+    cout << arr[1].first;
 
     return 0;
 }
