@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-string n;
-cin>>n;
-cout<<"input is "<<n;
-return 0;
+    int a,b;
+    cin>>a>>b;
+    int sum;
+    sum = a+b;
+    cout<<sum;
+    return 0;
 }
-
