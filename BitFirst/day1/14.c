@@ -7,4 +7,4 @@ void main(){
     b=temp;
     
     printf("%d %d %d ",a,b,temp );
-}   
+}       
