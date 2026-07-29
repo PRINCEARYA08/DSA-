@@ -7,7 +7,13 @@ void main(){
         printf("A+");
     }
     else{
+        if (mark>=55)
+        {
+            printf("B");
+        }
+        else{
         printf("fail");
     }
-    
+    }
+    // nested 
 }
